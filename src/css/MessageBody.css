@@ -1,14 +1,67 @@
 .container {
     min-height: 84vh;
     height: 84vh;
-    background-color: pink;
     overflow: auto;
+    display: block;
+    background-image: url('./background.jpg');
+    padding :10px;
+    width: 100%;
 }
 
-.container p {
-    line-height : 90px;
-}
+
 
  .container::-webkit-scrollbar {
     width : 0px;
+}
+
+.dateBoxWrapper {
+   
+   display: flex;
+   width: 100%;
+   justify-content: center;
+   margin: 5px 0px;
+}
+
+.dateBox {
+    display: inline-block;
+    background-color: #abe2f7;
+    padding: 2px 8px;
+    text-transform: capitalize;
+    border-radius: 5px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.messageWrapper {
+    width: 100%;
+    
+    margin: 8px 0px;
+    display: flex;
+
+}
+
+.message {
+    max-width: 80%;
+    border-radius: 5px;
+    min-height: auto;
+    display: inline-block;
+    padding: 3px 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toRight {
+  justify-content: flex-end;
+  
+}
+
+.toLeft {
+    justify-content: flex-start;
+    
+  }
+
+.whiteColor {
+    background-color: white;
+}
+
+.greenColor {
+    background-color: #DCF8C6;
 }
