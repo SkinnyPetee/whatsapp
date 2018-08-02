@@ -1,0 +1,14 @@
+.container {
+    min-height: 84vh;
+    height: 84vh;
+    background-color: pink;
+    overflow: auto;
+}
+
+.container p {
+    line-height : 90px;
+}
+
+ .container::-webkit-scrollbar {
+    width : 0px;
+}
