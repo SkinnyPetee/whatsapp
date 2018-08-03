@@ -8,7 +8,7 @@ class MessageFooter extends Component {
         return(
             <div className={style.container}>
                 <input className={style.messageInput}/>
-                <i class="fas fa-arrow-circle-right"></i>
+                <i className ="fas fa-arrow-circle-right"></i>
             </div>
         );
     }

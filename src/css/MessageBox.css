@@ -1,0 +1,35 @@
+.messageWrapper {
+    width: 100%;
+    
+    margin: 8px 0px;
+    display: flex;
+
+}
+
+
+.message {
+    max-width: 80%;
+    border-radius: 5px;
+    min-height: auto;
+    display: inline-block;
+    padding: 3px 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.2), 0 1px 1px 0 rgba(0, 0, 0, 0.19);
+}
+
+.toRight {
+  justify-content: flex-end;
+  
+}
+
+.toLeft {
+    justify-content: flex-start;
+    
+}
+
+.whiteColor {
+    background-color: white;
+}
+
+.greenColor {
+    background-color: #DCF8C6;
+}
